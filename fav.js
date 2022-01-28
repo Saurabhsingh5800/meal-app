@@ -95,7 +95,7 @@ function removeMovie(id) {
         if (mealContainer.childNodes[i].id === id) {
             mealContainer.removeChild(mealContainer.childNodes[i]);
             editStorage(id); // it will remove meal from loacal storage
-            displayStorage() // remaining meal will be loaded on page
+//             displayStorage() // remaining meal will be loaded on page
         }
 
     }
